@@ -2,13 +2,30 @@ package py.edu.uc.lp3.apirest;
 
 public class Vendible {
     protected String nombre;
-    protected double precio;
+    protected double precioMonedaJuego;
     protected String descripcion;
+    protected int precioMonedaReal;
 
-    // ... constructores, getters y setters ...
+
 
     public String getNombre() {
         return nombre;
+    }
+
+    public double getPrecioMonedaJuego() {
+        return precioMonedaJuego;
+    }
+
+    public void setPrecioMonedaJuego(double precioMonedaJuego) {
+        this.precioMonedaJuego = precioMonedaJuego;
+    }
+
+    public int getPrecioMonedaReal() {
+        return precioMonedaReal;
+    }
+
+    public void setPrecioMonedaReal(int precioMonedaReal) {
+        this.precioMonedaReal = precioMonedaReal;
     }
 
     public void setNombre(String nombre) {
@@ -16,11 +33,11 @@ public class Vendible {
     }
 
     public double getPrecio() {
-        return precio;
+        return precioMonedaJuego;
     }
 
     public void setPrecio(double precio) {
-        this.precio = precio;
+        this.precioMonedaJuego = precio;
     }
 
     public String getDescripcion() {
@@ -30,4 +47,5 @@ public class Vendible {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
+
 }
