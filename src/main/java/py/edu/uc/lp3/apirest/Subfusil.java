@@ -12,7 +12,7 @@ public class Subfusil extends ArmasDeFuego {
         this.precioMonedaReal = precioMonedaReal;
         this.descripcion = "Subfusil de corto alcance";
         this.nombre = "subfusil MP7";
-        this.precio = 1700;
+        this.precioMonedaReal = 1700;
         this.carga = 30;
     }
 
