@@ -1,9 +1,12 @@
 package py.edu.uc.lp3.apirest;
 
+import java.util.Date;
+
 public class Persona {
-    protected Long id;
-    protected String nombre;
-    protected String apellido;
+    private Long id;
+    private String nombre;
+    private String apellido;
+    private Date fechaNacimiento;
 
     // Constructor por defecto (opcional, si tiene sentido para tu entidad)
     public Persona() {
